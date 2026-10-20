@@ -1,0 +1,27 @@
+# downloaded data and caches (rebuilt automatically; never commit raw data)
+cache/
+__pycache__/
+*.pyc
+*.parquet
+*.csv.gz
+
+# model output (the app's data lives in a separate repo)
+cards/
+prediction_log.csv
+run.txt
+
+# secrets and local settings: never commit these
+.env
+*.env
+.env.*
+secrets*
+*.pem
+*.key
+settings.ts
+config.ts
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
