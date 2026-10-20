@@ -16,8 +16,6 @@ A Python pipeline that forecasts NFL game margins, win probabilities and total p
 
 ## Results
 
-Fill these in from your own run (see "Reproduce it" below).
-
 | Metric (walk-forward, 2014 to present) | Model | Closing line |
 |---|---|---|
 | Spread MAE (points) | 10.22 | 9.89 |
